@@ -8,6 +8,8 @@ let or_err x =
   | Ok x -> x
 
 let () =
+  let _camlboy = Camlboy.create () in
+
   let w = 640 in
   let h = 480 in
   Sdl.init Sdl.Init.everything |> or_err;

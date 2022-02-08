@@ -1,3 +1,5 @@
 (executable
  (name main)
  (libraries tsdl))
+
+(include_subdirs unqualified)

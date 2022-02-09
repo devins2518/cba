@@ -1,5 +1,6 @@
 (executable
  (name main)
- (libraries tsdl))
+ (ocamlopt_flags -O3)
+ (libraries tsdl stdint))
 
 (include_subdirs unqualified)

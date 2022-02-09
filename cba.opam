@@ -6,6 +6,7 @@ license: "MIT"
 depends: [
   "dune" {>= "2.8"}
   "tsdl" {= "0.9.8"}
+  "stdint" {= "0.7.0"}
   "odoc" {with-doc}
 ]
 build: [

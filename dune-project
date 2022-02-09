@@ -7,4 +7,5 @@
 (package
   (name cba)
   (depends
-    (tsdl (= 0.9.8))))
+    (tsdl (= 0.9.8))
+    (stdint (= 0.7.0))))
